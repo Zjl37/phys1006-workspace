@@ -2,6 +2,8 @@
 
 适用于 HITSZer 的一站式物理实验报告工作区，可以帮助你完成**数据处理**和**报告排版**的部分工作。本 workspace 特点是用 python 处理实验数据，用 [Typst](https://typst.app/) 排版文档。
 
+![封面图](https://s2.loli.net/2024/04/06/nDpQCBtuwAovFx3.png)
+
 ## 进展
 
 | 文件夹名 | 状态 | 实验名称 |
