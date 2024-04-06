@@ -2,7 +2,7 @@
 
 适用于 HITSZer 的一站式物理实验报告工作区，可以帮助你完成**数据处理**和**报告排版**的部分工作。本 workspace 特点是用 python 处理实验数据，用 [Typst](https://typst.app/) 排版文档。
 
-![封面图](https://s2.loli.net/2024/04/06/nDpQCBtuwAovFx3.png)
+![封面图](https://s2.loli.net/2024/04/06/RXS3cLlf9epCvEN.png)
 
 ## 进展
 
@@ -75,3 +75,7 @@
    注：请给不同的叠加图像以不同的标签名（`absolute-place` 的第一个参数），以免排版出错。
 
    如不想采用此叠加方式，亦可用工具将你的扫描文稿和 Typst 输出文档的后半部分拼接，以得到完整的实验报告。
+
+## 许可证
+
+除非另有说明，本仓库内容[按 CC BY-NC-SA 4.0 International 协议许可，只要遵守一定条件，你可以自由地修改、复制或发布之](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)。若你向本仓库贡献，即视为你亦将贡献的内容以同样的协议许可。
