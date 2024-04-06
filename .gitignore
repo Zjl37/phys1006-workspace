@@ -1,0 +1,5 @@
+report.typ
+*.pdf
+manuscript
+.ipynb_checkpoints
+*.xcf
