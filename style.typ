@@ -24,7 +24,7 @@
     footer: context {
       set align(right)
       set text(size: 9pt, font: ZFC--hei-zh)
-      move(dy: -20.4pt, counter(page).display("1"))
+      move(dy: -30pt, counter(page).display("1"))
     }
   )
 
@@ -76,6 +76,7 @@
 
   set par(
     leading: 1.15em*1.5 - 1em,
+    justify: true,
   )
 
   show link: it => underline(text(fill: color.blue, it))
