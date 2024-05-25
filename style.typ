@@ -24,7 +24,7 @@
     footer: context {
       set align(right)
       set text(size: 9pt, font: ZFC--hei-zh)
-      move(dy: -30pt, counter(page).display("1"))
+      move(dy: -24pt, counter(page).display("1"))
     }
   )
 
