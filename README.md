@@ -8,11 +8,11 @@
 
 | 文件夹名           | 状态 | 实验名称 |
 | :----------------- | :-- | :-- |
-| a01-collision      | 🚧 | 碰撞打靶实验 |
+| a01-collision      | 🏗 | 碰撞打靶实验 |
 | a02-youngs-modulus | ✅ | 拉伸法测杨氏弹性模量 |
-| a03-holography     | 🏗 | 全息技术实验 |
+| a03-holography     | ✅ | 全息技术实验 |
 | a04-oscilloscope   | ✅ | 示波器实验 |
-| a05-rlc            | 🚧 | RLC 电路暂态特性的研究 |
+| a05-rlc            | ✅ | RLC 电路暂态特性的研究 |
 | a06-mag-reso-coupl | 💤 | 磁耦合谐振式无线电力传输实验 |
 | a07-speed-of-sound | ✅ | 空气中声速的测量 |
 | a08-michelson-ifer | 💤 | 迈克尔逊干涉仪 |
