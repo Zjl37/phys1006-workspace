@@ -62,18 +62,15 @@
    
 4. 嵌入教师签字、成绩和手写内容。方法如下：
    - 扫描或拍摄你的纸质实验报告，用图像处理程序处理所得图像，保存在 manuscript 目录中
-   - 在 report.typ 中的适当位置添加类似如下的代码，调整缩放和偏移值，使叠加图像处于正确位置。
+   - 设置 `page` 的 `background` 或 `foreground` 属性为该图像，微调缩放和偏移值，使叠加图像处于正确位置，例如：
     ```typst
-    #absolute-place(
-      "overlay-p1",
-      dy: -1pt,
-      dx: 2.5pt,
-      scale(144%, origin: top+left, image("./manuscript/overlay-p1.png"))
-    )
+    #page(
+      foreground: move(dx: 0pt, dy: -1pt, scale(104%, origin: center+horizon,
+        image("./manuscript/overlay-p1.jpg")
+      ))
+    )[
+      // 页面内容……
     ```
-   注：请给不同的叠加图像以不同的标签名（`absolute-place` 的第一个参数），以免排版出错。
-
-   如不想采用此叠加方式，亦可用工具将你的扫描文稿和 Typst 输出文档的后半部分拼接，以得到完整的实验报告。
 
 ## 许可证
 

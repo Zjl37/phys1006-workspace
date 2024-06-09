@@ -7,46 +7,40 @@
 // TODO: 请替换以下内容
 #let teacher-name = "张三"
 
-// #absolute-place(
-//   "overlay-p1",
-//   dy: -18.4pt,
-//   dx: 92pt,
-//   scale(150%, origin: top+center, image("./manuscript/overlay-p1.png"))
-// )
+#page(
+ //  background: image("./manuscript/overlay-p1.png"),
+)[
 
-#report-meta(
-  teacher-name,
-  [/* 实验日期 */ 2024 年 11 月 4 日　T5104　\#9],
-  [/* 预习成绩 */ 2.0],
-  [/* 总成绩 */ #hide[0]]
-)
+  #report-meta(
+    teacher-name,
+    [/* 实验日期 */ 2024 年 11 月 4 日　T5104　\#9],
+    [/* 预习成绩 */ 2.0],
+    [/* 总成绩 */ #hide[0]]
+  )
 
-= 实验名称　拉伸法测杨氏弹性模量
+  = 实验名称　拉伸法测杨氏弹性模量
 
-== 一、实验目的
+  == 一、实验目的
 
-#v(5em)
+  #v(5em)
 
-== 二、实验预习
+  == 二、实验预习
 
-=== 1. 杨氏模量的物理意义是什么？国标单位是什么？
+  === 1. 杨氏模量的物理意义是什么？国标单位是什么？
 
-#v(5em)
+  #v(5em)
 
-=== 2. 光杠杆法的原理是什么，是如何实现微小量放大的？（画出测量原理光路图）。
+  === 2. 光杠杆法的原理是什么，是如何实现微小量放大的？（画出测量原理光路图）。
 
-#v(22em)
+  #v(22em)
 
-=== 3. 本实验需要测量哪些物理量来间接得到杨氏模量？
+  === 3. 本实验需要测量哪些物理量来间接得到杨氏模量？
 
-#pagebreak(weak: true)
+]
 
-// #absolute-place(
-//   "overlay-p2",
-//   dy: -20pt,
-//   dx: 90pt,
-//   scale(150%, origin: top+center, image("./manuscript/overlay-p2.png"))
-// )
+#page(
+ //  background: image("./manuscript/overlay-p2.png")
+)[
 
 == 三、实验现象及数据记录
 
@@ -105,7 +99,7 @@
 
 #v(29pt)
 
-#pagebreak(weak: true)
+]
 
 == 四、数据处理
 

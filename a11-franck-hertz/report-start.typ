@@ -6,59 +6,47 @@
 // TODO: 请替换以下内容
 #let teacher-name = "张三"
 
-#report-meta(
-  teacher-name,
-  [/* 实验日期 */ 2024 年 11 月 4 日　T5104　\#9],
-  [/* 预习成绩 */ 2.0],
-  [/* 总成绩 */ #hide[0]]
-)
+#page(
+ //  background: image("./manuscript/overlay-p1.png")
+)[
+  #report-meta(
+    teacher-name,
+    [/* 实验日期 */ 2024 年 11 月 4 日　T5104　\#9],
+    [/* 预习成绩 */ 2.0],
+    [/* 总成绩 */ #hide[0]]
+  )
 
-= 实验名称　夫兰克-赫兹实验
+  = 实验名称　夫兰克-赫兹实验
 
-== 一、实验预习
+  == 一、实验预习
 
-=== 1. 简要叙述波尔的原子能级理论;
+  === 1. 简要叙述波尔的原子能级理论;
 
-=== 2. 描述夫兰克-赫兹的实验原理。
+  === 2. 描述夫兰克-赫兹的实验原理。
+]
 
-// #absolute-place(
-//   "overlay-p1",
-//   dy: -1pt,
-//   dx: 2.5pt,
-//   scale(144%, origin: top+left, image("./manuscript/overlay-p1.png"))
-// )
+#page(
+  //  background: image("./manuscript/overlay-p2.png", width: 595pt),
+)[
+  == 二、实验现象及原始数据记录
 
-#pagebreak(weak: true)
+  #write[
+    // your content here...
+    #lorem_all()
 
-== 二、实验现象及原始数据记录
-
-#write[
-  // your content here...
-  #lorem_all()
+    // 你可能想要在此插入一张示波器照片：
+    //  #figure(
+    //    caption: "自动模式实验示波器最终图形",
+    //    image("./fig/1-oscilloscope.JPG")
+    //  )
+  ]
 
   #v(1fr)
 
   #teacher-signature-box([#teacher-name])
 
- //  #absolute-place(
- //    "overlay-p2",
- //    dy: -2.3pt,
- //    scale(144%, origin: top+left, image("./manuscript/overlay-p2.png"))
- //    // image("./manuscript/overlay-p2.png", width: 595pt)
- //  )
-
-  // 你可能想要在此插入一张示波器照片：
- //  #figure(
- //    caption: "自动模式实验示波器最终图形",
- //    image("./fig/1-oscilloscope.JPG")
- //  )
-
   #v(6.9em)
-
-  #pagebreak(weak: true)
 ]
-
-#pagebreak(weak: true)
 
 == 三、数据处理
 
