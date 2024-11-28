@@ -6,20 +6,35 @@
 
 ## 进展
 
-| 文件夹名           | 状态 | 实验名称 |
-| :----------------- | :-- | :-- |
-| a01-collision      | ✅ | 碰撞打靶实验 |
-| a02-youngs-modulus | ✅ | 拉伸法测杨氏弹性模量 |
-| a03-holography     | ✅ | 全息技术实验 |
-| a04-oscilloscope   | ✅ | 示波器实验 |
-| a05-rlc            | ✅ | RLC 电路暂态特性的研究 |
-| a06-mag-reso-coupl | 💤 | 磁耦合谐振式无线电力传输实验 |
-| a07-speed-of-sound | ✅ | 空气中声速的测量 |
-| a08-michelson-ifer | 💤 | 迈克尔逊干涉仪 |
-| a09-millikan-odrop | 💤 | 电子电荷的测定——密立根油滴法 |
-| a10-hall-effect    | ✅ | 霍尔效应及其应用 |
-| a11-franck-hertz   | ✅ | 弗兰克-赫兹实验 |
-| a12-surf-tens-coef | 💤 | 液体表面张力系数测量 |
+| 文件夹名           | 状态 | 实验名称                             |
+|:-------------------|:-----|:-------------------------------------|
+| a01-collision      | ✅   | 碰撞打靶实验                         |
+| a02-youngs-modulus | ✅   | 拉伸法测杨氏弹性模量                 |
+| a03-holography     | ✅   | 全息技术实验                         |
+| a04-oscilloscope   | ✅   | 示波器实验                           |
+| a05-rlc            | ✅   | RLC 电路暂态特性的研究               |
+| a06-mag-reso-coupl | 💤   | 磁耦合谐振式无线电力传输实验         |
+| a07-speed-of-sound | ✅   | 空气中声速的测量                     |
+| a08-michelson-ifer | 💤   | 迈克尔逊干涉仪                       |
+| a09-millikan-odrop | 💤   | 电子电荷的测定——密立根油滴法       |
+| a10-hall-effect    | ✅   | 霍尔效应及其应用                     |
+| a11-franck-hertz   | ✅   | 弗兰克-赫兹实验                      |
+| a12-surf-tens-coef | 💤   | 液体表面张力系数测量                 |
+| b01-diy-microscope | 🚧   | 自组显微镜与望远镜                   |
+| b02-spectrometer   | 🚧   | 分光计的调节及应用                   |
+| b03-eq-thick-ifer  | 💤   | 光的等厚干涉现象与应用               |
+| b04-spec-heat-cap  | 💤   | 准稳态法测不良导体的比热容和导热系数 |
+| b05-wheatstone     | 🚧   | 用惠斯通电桥测电阻                   |
+| b06-hysteresis     | 🚧   | 用示波器观测磁滞回线                 |
+| b07-double-grating | 🚧   | 双光栅检测微弱振动                   |
+| b08-gmr            | 🚧   | 巨磁阻效应与应用                     |
+| b09-solar-cell     | 🚧   | 太阳能电池的基本特性研究             |
+| b10-planck-const   | 💤   | 光电效应法测定普朗克常量             |
+| b11-mofe           | 💤   | 磁光效应及其在光通信中的应用         |
+| b12-elec-optic-lc  | 💤   | 液晶电光效应及其应用                 |
+| b13-viscosity      | 💤   | 液体黏度的测定                       |
+| b14-speed-of-light | 🚧   | 光强调制法测光速                     |
+| b15-diy-specgraph  | 🚧   | 自组光栅光谱仪实验                   |
 
 
 标「💤」为我本学期未选实验，欢迎 PR！

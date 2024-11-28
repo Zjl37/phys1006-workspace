@@ -16,7 +16,7 @@
             columns: (auto, auto),
             column-gutter: 1fr,
             [大学物理实验报告],
-            [哈尔滨工业大学（深圳）]
+            [哈尔滨工业大学#h(-0.5em)（深圳）#h(-0.4em)]
           )
         ))
       )
@@ -26,10 +26,6 @@
       set text(size: 9pt, font: ZFC--hei-zh)
       move(dy: -24pt, counter(page).display("1"))
     }
-  )
-
-  set block(
-    below: 1.15em*1.5 - 1em,
   )
 
   set text(
@@ -74,15 +70,27 @@
     it
   }
 
+  set enum(numbering: n => [#n.#box(clip: true, width: 0em, hide[永])])
+
   set par(
     leading: 1.15em*1.5 - 1em,
+    spacing: 1.15em*1.5 - 1em,
     justify: true,
   )
 
   show link: it => underline(text(fill: color.blue, it))
 
+  set table(stroke: 0.5pt)
+
   show math.equation: set text(font: ZFC-text-math)
 
   doc
 
+}
+
+#let fz-punctuation-adjust(offset: 0.20em, doc) = {
+  show "（": it => {h(offset); it; h(-offset)}
+  show "）": it => {h(-offset); it; h(offset)}
+
+  doc
 }

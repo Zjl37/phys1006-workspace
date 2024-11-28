@@ -3,3 +3,6 @@ report.typ
 manuscript
 .ipynb_checkpoints
 *.xcf
+*.bak
+
+b09-solar-cell/data.xlsx
